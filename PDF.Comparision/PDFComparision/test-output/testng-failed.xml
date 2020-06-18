@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression TestSuite]">
+  <test thread-count="5" name="Application Test(failed)">
+    <classes>
+      <class name="utilities.FileComparisionTest">
+        <methods>
+          <include name="Successfully_Create_Process_a_Check_With_Memo_n_Expense_Memo_Edit_it_andAddItem_With_Quantity_TaxCode_n_Location_PDF11"/>
+        </methods>
+      </class> <!-- utilities.FileComparisionTest -->
+    </classes>
+  </test> <!-- Application Test(failed) -->
+</suite> <!-- Failed suite [Regression TestSuite] -->
